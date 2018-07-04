@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="50dp">
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/cityt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شهر"/>
+    <Spinner
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9feae6"
+        android:layout_marginBottom="30dp" />
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/ostant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="استان"/>
+
+    <Spinner
+
+        android:id="@+id/ostan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9feae6"
+        android:layout_marginBottom="30dp" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/shahrestant"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="شهرستان"/>
+    <Spinner
+        android:id="@+id/shahrestan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9feae6"
+        android:layout_marginBottom="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/partt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="بخش"/>
+    <Spinner
+        android:id="@+id/part"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9feae6"
+        android:layout_marginBottom="30dp" />
+
+
+
+
+
+    <TextView
+        android:id="@+id/expertiset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="تخصص"/>
+
+    <Spinner
+        android:id="@+id/expertise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="#9feae6"
+        android:layout_marginBottom="30dp" />
+
+
+
+
+
+    <Button
+        android:id="@+id/turnEnter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ادامه" />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

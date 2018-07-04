@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg2"
+        android:orientation="vertical">
+
+
+
+
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:padding="50dp">
+
+
+                    <Button
+                        android:id="@+id/turn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/button"
+                        android:textColor="@color/white"
+                        android:textSize="18dp"
+                        android:text="گرفتن نوبت"/>
+
+
+
+
+                <Button
+                    android:id="@+id/test"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="آزمون MMPI"/>
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/visit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="دیدن تمام مستندات"/>
+
+
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/mmpi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="وضعیت آزمون های گرفته شده"/>
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/chatall"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="گروه پزشکان"/>
+
+
+
+
+
+                <Button
+                    android:id="@+id/list_doctor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="لیست پزشکان"/>
+
+
+
+
+
+                <Button
+                    android:id="@+id/list_doctor_chat"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="لیست پزشکان شما برای ارتباط"/>
+
+
+
+
+
+
+
+
+
+
+                <Button
+                    android:id="@+id/exit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:background="@drawable/button"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"
+                    android:text="خروج از اپلیکیشن"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+
+        </LinearLayout>
+
+

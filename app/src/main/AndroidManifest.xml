@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.amhso.nlpapp">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginsickActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LangActivity"
+            android:label="@string/title_activity_lang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".CategoryturnActivity" />
+        <activity android:name=".TurnActivity" />
+        <activity android:name=".MmpiActivity" />
+        <activity android:name=".VisitActivity" />
+        <activity android:name=".VisitmmpiActivity" />
+        <activity android:name=".ListdoctorsActivity" />
+        <activity android:name=".ChatallActivity" />
+        <activity android:name=".ChatprivateActivity" />
+        <activity android:name=".ListdoctorchatActivity" />
+        <activity android:name=".SignupActivity" />
+        <activity android:name=".ListdoctorallActivity"></activity>
+    </application>
+
+</manifest>
